@@ -1,8 +1,12 @@
-export default function App() {
+function App() {
   return (
-    <div style={{ padding: 20, fontFamily: "Arial" }}>
+    <div style={{ padding: 20 }}>
       <h1>RED PAY</h1>
-      <p>App is running successfully 🎉</p>
+      <p>Welcome to your dashboard</p>
+      <button>Login</button>
+      <button>Register</button>
     </div>
   );
 }
+
+export default App;
